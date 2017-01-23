@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>criss-cross game</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wrap">
+            <header>
+                <article class="player1">
+                    <div class="wrap_player1">
+                        <h2 class="title_txt" data-name-player1></h2>
+                        <p class="xo_txt" data-simbol-pleyer1></p>
+                        <p class="score_txt" data-score-player1></p>
+                    </div>
+                </article>     
+                <article class="title_page">
+                    <h1 class="title_txt" data-game-title></h1>
+                </article>
+                <article class="player2">
+                    <div class="wrap_player2">
+                        <h2 class="title_txt" data-name-player2></h2>
+                        <p class="xo_txt" data-simbol-pleyer2></p>
+                        <p class="score_txt" data-score-player2></p>
+                    </div>
+                </article>
+            </header>
+            <main>
+                <table class="gamestable">
+                    <tr>
+                        <td data-cell="11"></td>
+                        <td data-cell="12"></td>
+                        <td data-cell="13"></td>
+                    </tr>
+                    <tr>
+                        <td data-cell="21"></td>
+                        <td data-cell="22"></td>
+                        <td data-cell="23"></td>
+                    </tr>
+                    <tr>
+                        <td data-cell="31"></td>
+                        <td data-cell="32"></td>
+                        <td data-cell="33"></td>
+                    </tr>
+                </table>
+            </main>
+            <footer>
+                <div class="help_info_text">
+                    <br>Player 1 use keys w - for move up, s - for move down, a - move to the left, d - move to the right, z - set X or O
+                    <br>Player 2 use keys arrow Up - for move up, arrow Down - for move down, arrow Left - move to the left, arrow Right - move to the right, 9 - set X or O
+                    <br>Player with X symbol must do the first step 
+                </div>
+                <div  class="copyrightRecord">
+                    <p>&copy;&nbsp;2017&nbsp;Ruslana&nbsp;Podshyvalova</p>
+                </div>	
+            </footer> 
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
